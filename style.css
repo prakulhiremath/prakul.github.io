@@ -123,3 +123,19 @@ footer {
 .page section {
   margin-bottom: 60px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.link-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-card:hover {
+  background: #1f2937;
+  transform: translateY(-5px);
+}
